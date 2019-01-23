@@ -18,7 +18,7 @@ public class spawner : MonoBehaviour {
 		if (timer > beat) {
 			GameObject beet = Instantiate(beets[Random.Range(0, 2)], points[Random.Range(0, 4)]);
 			beet.transform.localPosition = Vector3.zero;
-			beet.transform.Rotate(transform.forward, 40 * Random.Range(0, 8));
+			beet.transform.Rotate(transform.forward, 90 * Random.Range(0, 4));
 			timer -= beat;
 		}
 
