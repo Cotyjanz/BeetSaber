@@ -4,13 +4,21 @@ using UnityEngine;
 
 public class Beets : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
+	private float timer = 0;
+
 	
 	// Update is called once per frame
 	void Update () {
-			transform.position += Time.deltaTime * transform.forward * 2;
+			timer += Time.deltaTime;
+
+			if (timer > 7f) {
+				Object.Destroy(this.gameObject);
+			} else {
+			//forward states a direction of +Z, forward * -1 for -Z
+			transform.position += Time.deltaTime * (transform.forward * -1) * 2;
+
+			}
+
+
 	}
 }
