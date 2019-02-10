@@ -1,33 +1,15 @@
 fileFormatVersion: 2
-guid: 0dd1e8dd103a9784184ad8f0182c5d24
+guid: 33247e0f121503645951cbe4af95b3a1
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
-    100002: pCube1
-    100004: Reference
-    100006: persp1
-    100008: axe_handle
-    100010: axe_head
-    100012: reference_img_plane
     400000: //RootNode
-    400002: pCube1
-    400004: Reference
-    400006: persp1
-    400008: axe_handle
-    400010: axe_head
-    400012: reference_img_plane
-    2000000: persp1
-    2100000: lambert1
-    2300000: pCube1
-    2300002: axe_handle
-    2300004: axe_head
-    3300000: pCube1
-    3300002: axe_handle
-    3300004: axe_head
-    4300000: pCube1
-    4300002: axe_handle
-    4300004: axe_head
+    2100000: typeBlinn
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: ominious_text
+    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -62,10 +44,10 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
-    importVisibility: 1
+    importVisibility: 0
     importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
