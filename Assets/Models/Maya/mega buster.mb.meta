@@ -10,6 +10,10 @@ ModelImporter:
     100008: emitter
     100010: //RootNode
     100012: ref_image
+    100014: barrel1
+    100016: barrel2
+    100018: transform1
+    100020: transform2
     400000: barrel
     400002: body
     400004: curve1
@@ -17,16 +21,23 @@ ModelImporter:
     400008: emitter
     400010: //RootNode
     400012: ref_image
+    400014: barrel1
+    400016: barrel2
+    400018: transform1
+    400020: transform2
     2100000: lambert1
     2300000: barrel
     2300002: body
     2300004: emitter
+    2300006: barrel2
     3300000: barrel
     3300002: body
     3300004: emitter
+    3300006: barrel2
     4300000: body
     4300002: barrel
     4300004: emitter
+    4300006: barrel2
   externalObjects: {}
   materials:
     importMaterials: 1
